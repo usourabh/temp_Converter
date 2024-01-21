@@ -13,35 +13,41 @@ body {
   height: 100vh;
 }
 
-
-/* 
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 250px;
+#heading{
+  color: aqua;
+  margin-left: 80px;
+  margin-top: 70px;
+  margin-right: 0px;
+  margin-bottom: 40px;
+  text-decoration: underline;
 }
 
-.heading{
-  margin-top: 20px;
-  font-size: 80px;
-  color: bisque;
+.inputFields{
+  margin-left: 80px;
+  margin-top: 30px;
+  border-radius: 10%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  width: 20%;
+  font-size: larger;
+  height: 50px;
+  
+}
+input[type=text]:focus {
+  outline: navajowhite;
+  border: 1px solid #a0d18c;
+  color: #2d9fd9;
+}
+.glowing-border {
+  border: 2px solid ;
+  color: white;
+  border-radius: 7px #9ecaed;
 }
 
-.clockBox{
-  background-color: #FFFF04;
-  border-radius: 50px;
-  border: 2px solid lightgreen;
-  padding: 30px 150px;
+.glowing-border:focus { 
+  outline: none;
+  border-color: #FEFE1C;
+  color: white;
+  box-shadow: 0 0 10px #FEFE1C;
 }
-
-#time{
-  font-size: 50px;
-  color: a;
-}
-
-.time{
-  font-size: 30px;
-}
- */
